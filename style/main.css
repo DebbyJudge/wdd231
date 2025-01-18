@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* --background_color: #f0f0f0; */
+    --border: 1px solid rgba(0, 0, 0, .2);
+    --box_shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+    --text_shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+    --ash_grey: #e4da86;
+    --tea_green: #D0E3C4;
+    --dark_spring_green: #04724D;
+    --pale_purple: #FEEAFA;
+    --black: #070707;
+    --light_green: #ACF39D;
+    --pale_azure: #69DDFF;
+    --oxford_blue: #37023b;
+    --rose_ebony: #563635;
+    --dark_grey: #283D3B;
+    --border_radius: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    font-family: "Montserrat", serif;
+}
+
+#toggle {
+    display: none;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--oxford_blue);
+}
+
+.info img {
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: var(--box_shadow);
+    margin-right: 12px;
+}
+
+.info h1 {
+    color: white;
+    font-size: xx-large;
+    margin-left: 12px;
+    text-shadow: var(--text_shadow);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--black);
+}
+
+.navigation li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.navigation li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+.navigation li .active {
+    color: var(--pale_azure);
+}
+
+.navigation li a:hover {
+    background-color: var(--oxford_blue);
+    color: var(--pale_purple);
+}
+
+.courseWork,
+.location,
+.secondBody {
+    border-bottom: var(--border);
+    box-shadow: var(--box_shadow);
+    margin: 10px;
+}
+
+.courseWork h3,
+.location h3,
+.secondBody h3 {
+    background-color: var(--oxford_blue);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-shadow: var(--text_shadow);
+}
+
+.creditCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditCount p {
+    text-align: center;
+    margin: 2px;
+}
+
+.location p {
+    text-align: center;
+    color: var(--oxford_blue);
+    font-size: small;
+}
+
+.location img {
+    width: 300px;
+    margin: 7px;
+    border-radius: 20px;
+    box-shadow: var(--box_shadow);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courseContent ul li {
+    list-style-type: disc;
+    margin: 5px 40px;
+    padding: 5px;
+}
+
+.firstBody {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.classification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--border);
+}
+
+.classification h4 {
+    padding: 5px 40px;
+    margin: 10px 3px;
+    background-color: var(--black);
+    color: white;
+    border-radius: var(--border_radius);
+    cursor: pointer;
+}
+
+.classes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.classes h4 {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: var(--border);
+}
+
+.completed {
+    background-color: var(--dark_grey);
+    color: white;
+}
+
+.footer {
+    background-color: var(--oxford_blue);
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    display: block;
+    width: 50px;
+    margin: 5px;
+}
+
+footer .update {
+    color: var(--pale_purple);
+    font-size: small;
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        --text_shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    #toggle p {
+        font-size: 32px;
+        cursor: pointer;
+        color: white;
+
+        position: absolute;
+        top: 12px;
+        right: 15px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .info h1 {
+        font-size: large;
+    }
+
+    .courseWork,
+    .location {
+        box-shadow: var(--text_shadow);
+    }
+
+    .firstBody {
+        display: block;
+    }
+
+    .classes {
+        display: block;
+    }
+
+    .navigation.open {
+        display: flex;
+        left: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

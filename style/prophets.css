@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+#cards {
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.prophetDetail {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.prophetDetail img {
+    width: 40%;
+}

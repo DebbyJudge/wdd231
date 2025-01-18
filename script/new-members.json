@@ -1,0 +1,18 @@
+{
+    "familyName": "Mia",
+    "dateMoved": "01-01-2024",
+    "noOfMembers": 2,
+    "visitedByBishopric?": true,
+    "individualMembers": [
+        {
+            "name": "Mia Armstrong",
+            "gender": "male",
+            "birthDate": "21-05-1997"
+        },
+        {
+            "name": "Mia Mary",
+            "gender": "female",
+            "birthDate": "01-01-1993"
+        }
+    ]
+}
