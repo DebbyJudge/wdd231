@@ -1,0 +1,79 @@
+{"data": [
+    {
+        "name": "GreenTech Solutions",
+        "address": "123 Innovation Drive, Springfield, IL 62704",
+        "phone": "+1 (555) 123-4567",
+        "website": "https://www.greentechsolutions.com",
+        "image": "https://cloudinary.hbs.edu/hbsit/image/upload/s--O0PXWnT3--/f_auto,c_fill,h_375,w_750,/v20200101/BDD0688FF02068E5C427B0954F8A2297.jpg",
+        "membershipLevel": 3,
+        "industry": "Sustainable Technology",
+        "contactPerson": "Sarah Green",
+        "email": "contact@greentechsolutions.com"
+    },
+    {
+        "name": "Blue Horizon Travel",
+        "address": "456 Adventure Lane, Denver, CO 80203",
+        "phone": "+1 (555) 987-6543",
+        "website": "https://www.bluehorizontravel.com",
+        "image": "https://plus.unsplash.com/premium_photo-1683141136472-bd21514555a2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVzaW5lc3MlMjBsZWFkZXJ8ZW58MHx8MHx8fDA%3D",
+        "membershipLevel": 2,
+        "industry": "Tourism & Hospitality",
+        "contactPerson": "James Carter",
+        "email": "info@bluehorizontravel.com"
+    },
+    {
+        "name": "Elite Fitness Gear",
+        "address": "789 Wellness Street, Austin, TX 73301",
+        "phone": "+1 (555) 654-3210",
+        "website": "https://www.elitefitnessgear.com",
+        "image": "https://www.investopedia.com/thmb/03_nCwEf2AMtnDLH2QkOEuQxiIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1084171152-8445a490b5894f0a9bb588dbfc2ac22d.jpg",
+        "membershipLevel": 1,
+        "industry": "Sports Equipment",
+        "contactPerson": "Laura Smith",
+        "email": "support@elitefitnessgear.com"
+    },
+    {
+        "name": "Summit Financial Partners",
+        "address": "321 Wealth Avenue, New York, NY 10036",
+        "phone": "+1 (555) 888-1122",
+        "website": "https://www.summitfinances.com",
+        "image": "https://www.shutterstock.com/image-photo/teamwork-meeting-tablet-business-people-600nw-2251938325.jpg",
+        "membershipLevel": 3,
+        "industry": "Financial Services",
+        "contactPerson": "William Foster",
+        "email": "william.foster@summitfinances.com"
+    },
+    {
+        "name": "TechNova Labs",
+        "address": "654 Innovation Hub, San Francisco, CA 94103",
+        "phone": "+1 (555) 777-2233",
+        "website": "https://www.technova.com",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/5fca87f3ce4ca55e8985a10a/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "membershipLevel": 2,
+        "industry": "Software Development",
+        "contactPerson": "Emily Novak",
+        "email": "emily.novak@technova.com"
+    },
+    {
+        "name": "Culinary Creations",
+        "address": "987 Flavor Street, Portland, OR 97209",
+        "phone": "+1 (555) 333-4444",
+        "website": "https://www.culinarycreations.com",
+        "image": "https://s3.amazonaws.com/utep-uploads/wp-content/uploads/UAB/2022/07/18193751/Image-2_v1-17-1.jpg",
+        "membershipLevel": 1,
+        "industry": "Food & Beverage",
+        "contactPerson": "Oliver Baker",
+        "email": "oliver.baker@culinarycreations.com"
+    },
+    {
+        "name": "Urban Chic Designs",
+        "address": "246 Style Avenue, Miami, FL 33101",
+        "phone": "+1 (555) 555-6666",
+        "website": "https://www.urbanchicdesigns.com",
+        "image": "https://lionspiritmedia.co.uk/wp-content/uploads/2024/03/marketing_in_business_success.jpg.webp",
+        "membershipLevel": 3,
+        "industry": "Interior Design",
+        "contactPerson": "Sophia Reed",
+        "email": "sophia.reed@urbanchicdesigns.com"
+    }
+]}

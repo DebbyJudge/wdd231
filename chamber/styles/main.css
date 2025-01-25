@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --border: 1px solid black;
+
+    --bgPrimary: #2C2C2C;
+    --bgAccent: #3B3B3B;
+    --txtPrimary: #E8E6E3;
+    --txtSecondary: #BEBEBE;
+    --accentPrimary: #C28865;
+    --accentSecondary: #8DB8C9;
+    --linksInteractives: #76C7C0;
+
+    --fontPrimary: "Playfair Display", serif;
+    --fontSecondary: "Roboto", sans-serif;
+
+    --h1: 48px;
+    --h2: 36px;
+    --h3: 28px;
+    --paragraph: 16px;
+    --secondaryText: 14px;
+    --navMenu: 18px;
+    --buttons: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main {
+    background-color: var(--bgAccent);
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    text-shadow: .2px .2px .5px black;
+    padding: 10px;
+    margin: 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav {
+    width: auto;
+}
+
+.header,
+.footerContainer {
+    background-color: black;
+    color: var(--txtPrimary);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5px;
+    margin: 0 25px;
+
+    /* width: 100%; */
+}
+
+.navigation li {
+    display: block;
+    width: 100%;
+}
+
+.navigation li a {
+    display: block;
+    padding: 10px;
+
+    color: var(--txtPrimary);
+    font-family: var(--fontSecondary);
+    font-family: var(--secondaryText);
+
+    text-align: center;
+}
+
+.navigation li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 5px 30px;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 10px;
+}
+
+#darkMode,
+#hamburger {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#hamburger {
+    display: none;
+}
+
+.control {
+    cursor: default;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.logos img {
+    width: var(--h2);
+    padding: 0 5px;
+}
+
+.chamber,
+.logos {
+    margin: 0 auto;
+}
+
+.chamber p,
+.chamber span {
+    font-family: var(--fontPrimary);
+    font-size: var(--secondaryText);
+}
+
+.listGrid {
+    padding: 5px;
+    /* margin: 10px; */
+
+    text-align: center;
+}
+
+.grid,
+.list {
+    font-size: 18px;
+    font-family: var(--fontPrimary);
+
+    padding: 10px;
+    border-radius: 5px;
+
+    text-align: center;
+    color: black;
+    background-color: white;
+
+    box-shadow: 1px 1px 1px black;
+    text-shadow: .2px .2px .5px black;
+}
+
+.content {
+    display: grid;
+}
+
+.content.gridDisplay {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.content.listDisplay {
+    grid-template-columns: 1fr;
+}
+
+.content.gridDisplay .members {
+    text-align: center;
+}
+
+.content.gridDisplay .members img {
+    width: 200px;
+}
+
+.content.listDisplay .members {
+    text-align: left;
+}
+
+.content.listDisplay .members img {
+    width: 80vw;
+}
+
+.members {
+    border: var(--border);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 2px black;
+
+    font-family: var(--fontPrimary);
+    color: white;
+    text-shadow: .5px .5px 1px black;
+}
+
+.members p,
+.members a {
+    font-family: var(--fontSecondary);
+    color: white;
+}
+
+
+@media screen and (max-width: 550px) {
+    .footerContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .chamber {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .logos img {
+        width: 50px;
+    }
+
+    #hamburger {
+        display: inline;
+    }
+
+    .logoNav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .navigation.open {
+        display: flex;
+    }
+
+    nav {
+        width: 100%;
+    }
+}
