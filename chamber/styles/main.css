@@ -33,6 +33,12 @@
 
 main {
     background-color: var(--bgAccent);
+    margin: auto;
+}
+
+.main {
+    max-width: 1400px;
+    margin: auto;
 }
 
 main h1 {
@@ -77,18 +83,19 @@ nav {
 .navigation li a {
     display: block;
     padding: 10px;
+    border-radius: 5px;
 
     color: var(--txtPrimary);
     font-family: var(--fontSecondary);
     font-family: var(--secondaryText);
 
     text-align: center;
+    transition: .3s ease-out;
 }
 
 .navigation li a:hover {
     background-color: white;
     color: black;
-    border-radius: 5px;
 }
 
 .logoNav {
@@ -210,8 +217,110 @@ nav {
     color: white;
 }
 
+.active {
+    background-color: var(--accentPrimary);
+    color: var(--bgPrimary);
+}
 
-@media screen and (max-width: 550px) {
+.hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.hero {
+    height: 50vw;
+}
+
+.join {
+    position: relative;
+}
+
+.join a {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+
+    background-color: var(--bgPrimary);
+    color: var(--linksInteractives);
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px var(--bgAccent);
+    text-shadow: 1px 1px 1px var(--bgPrimary);
+    font-family: var(--fontPrimary);
+
+    transition: .3s ease-out;
+}
+.join a:hover {
+    box-shadow: 5px 5px 1px black;
+}
+
+.content1,
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.homeContent {
+    margin: 5px;
+}
+
+.homeContent h1 {
+    text-align: left;
+    text-shadow: 1px 1px 1px var(--bgPrimary);
+    font-size: 1.4rem;
+}
+
+.homeContent h2 {
+    color: black;
+    padding: 2px 10px;
+    background-color: var(--accentPrimary);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.event,
+.weather,
+.forecast {
+    margin: 10px;
+    padding: 2px;
+    background-color: var(--bgPrimary);
+    color: white;
+    text-align: center;
+    text-shadow: .2px .2px .2px black;
+
+    border-radius: 3px;
+    font-family: var(--fontPrimary);
+}
+
+.event h2,
+.weather h2,
+.forecast h2 {
+    border-radius: 3px;
+}
+
+.forecast p {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.members h3{
+    font-size: medium;
+}
+.members p {
+    font-size: small;
+}
+.members img{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
     .footerContainer {
         grid-template-columns: 1fr;
     }
@@ -248,5 +357,29 @@ nav {
 
     nav {
         width: 100%;
+    }
+
+    .join a {
+        font-size: 1rem;
+    }
+
+    .content1,
+    .content2 {
+        display: block;
+    }
+
+    .homeContent h1 {
+        font-size: 1.5rem;
+    }
+
+    .homeContent h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .event,
+    .weather,
+    .forecast {
+        margin: 10px;
     }
 }
