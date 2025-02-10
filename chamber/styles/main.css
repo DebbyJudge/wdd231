@@ -253,6 +253,7 @@ nav {
 
     transition: .3s ease-out;
 }
+
 .join a:hover {
     box-shadow: 5px 5px 1px black;
 }
@@ -269,6 +270,7 @@ nav {
 
 .homeContent {
     margin: 5px;
+    padding: 5px;
 }
 
 .homeContent h1 {
@@ -310,17 +312,286 @@ nav {
     font-weight: lighter;
 }
 
-.members h3{
+.members h3 {
     font-size: medium;
 }
+
 .members p {
     font-size: small;
 }
-.members img{
+
+.members img {
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+form {
+    max-width: 50vw;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-size: small;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-shadow: 0em 0em 1em black;
+    font-family: var(--fontSecondary);
+}
+
+label input {
+    display: block;
+    font-size: large;
+    border-radius: 2px;
+    border-left: 5px solid red;
+    font-family: var(--fontSecondary);
+    transition: .2s ease-in;
+}
+
+label select {
+    display: block;
+    font-size: large;
+}
+
+label textarea {
+    display: block;
+    max-width: 45vw;
+    min-width: 45vw;
+    min-height: 15vh;
+    max-height: 15vh;
+}
+
+label input:focus {
+    border-left: 5px solid green;
+}
+
+#submit {
+    background-color: var(--bgPrimary);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: var(--fontPrimary);
+    font-size: 1.5rem;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit:hover {
+    font-size: var(--h2);
+    transition: .3s ease-in-out;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#details {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-shadow: 0em 0em 1em black;
+}
+
+#details h2,
+form h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#details h3 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+#details p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#details div {
+    border: 1px solid var(--accentPrimary);
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+#details div button {
+    background-color: var(--bgPrimary);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 5px auto;
+    transition: .3s ease-in-out;
+}
+
+#details div button:hover {
+    font-size: 1.5rem;
+    transition: .3s ease-in-out;
+}
+
+.location h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.location p {
+    padding: 5px;
+}
+
+.location button {
+    width: 100%;
+}
+
+.container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container div {
+    display: grid;
+    grid-template-areas:
+        "image name"
+        "image address"
+        "button button"
+    ;
+    /* margin: auto; */
+    text-align: center;
+    padding: 5px;
+}
+
+.container div h2 {
+    grid-area: name;
+}
+
+.container div address {
+    grid-area: address;
+    display: block;
+    margin: auto;
+}
+
+.container div img {
+    /* display: block; */
+    grid-area: image;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    transition: .3s ease;
+}
+
+.container div img:hover {
+    box-shadow: 0em 0em .5em black;
+    transition: .3s ease;
+}
+
+.container div button {
+    grid-area: button;
+}
+
+.card {
+    border: 1px solid var(--accentPrimary);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    color: white;
+    text-shadow: 0em 0em .1em black;
+    box-shadow: 0em 0em .3em black;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--accentPrimary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.card button:hover {
+    transition: .3s ease;
+    box-shadow: .2em .2em .2em black;
+}
+
+dialog {
+    margin: auto;
+    padding: 10px;
+    max-width: 85vw;
+    font-size: larger;
+    background-color: var(--bgPrimary);
+    color: white;
+}
+
+dialog h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--accentPrimary);
+}
+
+dialog button {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: var(--accentPrimary);
+    color: black;
+}
+
+#visited p {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+::backdrop {
+    background-image: linear-gradient(45deg, var(--bgPrimary), var(--accentSecondary));
+    opacity: .7;
+}
+
+#details .detail {
+    animation: fadeIn 1s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#details1 {
+    padding: 15px;
+    border: 1px solid black;
+    max-width: 80vw;
+    margin: auto;
+    font-family: var(--fontPrimary);
+    color: white;
+    font-size: large;
+
+    background-color: var(--bgPrimary);
+    border-radius: 5px;
+    text-shadow: 0em 0em 1em black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
     .footerContainer {
         grid-template-columns: 1fr;
     }
@@ -381,5 +652,67 @@ nav {
     .weather,
     .forecast {
         margin: 10px;
+    }
+
+    .display {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        max-width: 95vw;
+    }
+
+    label {
+        font-size: medium;
+    }
+
+    label input {
+        font-size: x-large;
+    }
+
+    label textarea {
+        display: block;
+        max-width: 85vw;
+        min-width: 85vw;
+    }
+
+    #submit {
+        font-size: 2rem;
+    }
+
+    #details1 {
+        font-size: medium;
+    }
+
+    .container div {
+        grid-template-areas:
+            "name"
+            "address"
+            "image"
+            "button"
+        ;
+    }
+
+    .container div img {
+        margin: auto;
+    }
+    .container div img:hover {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container div {
+        display: grid;
+        grid-template-areas:
+            "image name"
+            "image address"
+            "button"
+        ;
+    }
+
+    .container {
+        padding: 5px;
+        grid-template-columns: 1fr;
     }
 }

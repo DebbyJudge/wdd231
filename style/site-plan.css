@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --heading-font: "Cormorant Garamond", serif;
+    --body-font: "Open Sans", serif;
+    --accent-font: "Playfair Display", serif;
+
+    --hero-color: #D4A5A5;
+    --main-bg-color: #F8F1E5;
+    --nav-color: #A7C4A0;
+    --links-accent: #D17A22;
+    --bodytxt-footerbg: #4E4E50;
+
+    --primary-color: #14213d;
+    --secondary-color: #fca311;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+}
+
+hr {
+    border: 1px solid var(--secondary-color);
+    margin: 1em 2em;
+}
+
+.intro {
+    padding: 2em;
+    margin: 1em;
+    background-color: var(--primary-color);
+    color: white;
+
+    box-shadow: 0em 0em .5em black;
+}
+.intro h1 {
+    font-family: var(--heading-font);
+    font-size: 2.2em;
+    text-align: center;
+    padding: 1em;
+}
+.intro h2 {
+    font-family: var(--accent-font);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em;
+}
+.purpose,
+.scenarios,
+.color,
+.typography,
+.wireframe {
+    padding: 2em 0;
+    margin: 1em;
+}
+.purpose h2,
+.scenarios h2,
+.color h2,
+.typography h2,
+.wireframe h2 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    text-align: center;
+    color: var(--primary-color);
+    padding: .5em;
+}
+.scenarios h3,
+.color h3,
+.typography h3 {
+    font-family: var(--accent-font);
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 1em;
+}
+.purpose p,
+.scenarios p,
+.color p,
+.typography p {
+    font-size: 1.2em;
+    font-family: var(--body-font);
+    text-align: center;
+    padding: 1em;
+}
+.wireframe img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+.color h3:nth-of-type(1) {
+    color: #D4A5A5;
+    background-color: black;
+}
+.color h3:nth-of-type(2) {
+    color: #F8F1E5;
+    background-color: black;
+}
+.color h3:nth-of-type(3) {
+    color: #A7C4A0;
+    background-color: black;
+}
+.color h3:nth-of-type(4) {
+    color: #D17A22;
+    background-color: black;
+}
+.color h3:nth-of-type(5) {
+    color: #4E4E50;
+    /* background-color: black; */
+}
