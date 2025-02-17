@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Deborah Bayode">
+    <meta name="description"
+        content="WDD231 Chamber of Commerce home page, which will develop into additional pages throughout the semester">
+    <meta property="og:title" content="Chamber of Commerce Directory Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="chamber\images\logo.png">
+    <meta property="og:url" content="https://debbyjudge.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Deborah Bayode - Chamber of Commerce Discover Page</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logoNav">
+                <div class="logo"><img src="images/logo.png" alt="Chamber of Commerce Logo"></div>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="discover.html" class="active">Discover</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="control">
+                <span id="darkMode">🌘</span>
+                <span id="hamburger">&#9776;</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Discover</h1>
+        <div class="container"></div>
+        <dialog class="location"></dialog>
+        <span id="visited"></span>
+    </main>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="chamber">
+                <p>Lagos Chamber of Commerce</p>
+                <p>Yaba, Lagos</p>
+                <p>info@chamber.ru</p>
+                <p>234-80-55-68</p>
+            </div>
+
+            <div class="logos">
+                <img src="images/social.png" alt="Facebook Logo">
+                <img src="images/twitter.png" alt="Twitter Logo">
+                <img src="images/social-1.png" alt="LinkedIn Logo">
+            </div>
+
+            <div class="chamber">
+                <p>WDD 231 Class Project</p>
+                <p>Deborah Bayode</p>
+                <p>&copy; 2025 Lagos Chamber of Commerce</p>
+                <span id="lastModified"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+</body>
+
+</html>

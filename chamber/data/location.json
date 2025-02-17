@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Nike Art Gallery",
+        "address": "No. 2 Elegushi Rd, Lekki Phase I, Lagos, Nigeria",
+        "description": "Nike Art Gallery is one of the largest art galleries in West Africa, featuring over 25,000 artworks from Nigerian artists. It showcases paintings, sculptures, and textiles, offering a deep dive into Nigeria's artistic heritage. Visitors can meet artists, participate in workshops, and explore traditional African craftsmanship.",
+        "image": "./images/nike-art-gallery.webp"
+    },
+    {
+        "name": "Tarkwa Bay Beach",
+        "address": "Tarkwa Bay Island, Lagos, Nigeria (Accessible by boat)",
+        "description": "Tarkwa Bay Beach is a serene, privately managed beach located on an island off the coast of Lagos. Known for its calm waters and picturesque scenery, it is perfect for swimming, jet skiing, and relaxation. The beach is accessible only by boat, making it an exclusive retreat away from the city's hustle.",
+        "image": "./images/tarkwa-bay-beach.webp"
+    },
+    {
+        "name": "Lekki Conservation Centre",
+        "address": "KM 19 Lekki-Epe Expressway, Lekki Peninsula, Lagos, Nigeria",
+        "description": "This 78-hectare nature reserve is a haven for wildlife lovers. Managed by the Nigerian Conservation Foundation, it is home to monkeys, birds, and rare plant species. The highlight is Africa's longest canopy walkway, offering breathtaking views of the lush greenery and animal life.",
+        "image": "./images/lekki-conservation.webp"
+    },
+    {
+        "name": "Terra Kulture",
+        "address": "1376 Tiamiyu Savage St, Victoria Island, Lagos, Nigeria",
+        "description": "Terra Kulture is a leading cultural center that promotes Nigerian art, literature, and theater. It features an art gallery, a bookstore with indigenous literature, and a stage for live performances. Visitors can enjoy traditional Nigerian cuisine at the in-house restaurant while experiencing local culture.",
+        "image": "./images/tera-kulture.webp"
+    },
+    {
+        "name": "National Museum Lagos",
+        "address": "Awolowo Road, Onikan, Lagos Island, Nigeria",
+        "description": "The National Museum of Lagos houses an extensive collection of Nigerian historical artifacts, including the famous Benin Bronzes and the Festac Mask. It provides insights into Nigeria's colonial and pre-colonial history, making it a must-visit for history enthusiasts.",
+        "image": "./images/national-museum.webp"
+    },
+    {
+        "name": "Freedom Park",
+        "address": "Old Prison Grounds, Broad Street, Lagos Island, Nigeria",
+        "description": "Freedom Park was once a colonial-era prison but has been transformed into a cultural and recreational space. It hosts concerts, art exhibitions, and festivals while preserving parts of its historical prison walls and cells. The park serves as a creative hub and meeting place for artists and intellectuals.",
+        "image": "./images/freedom-park.webp"
+    },
+    {
+        "name": "The New Afrika Shrine",
+        "address": "NERDC Road, Agidingbi, Ikeja, Lagos, Nigeria",
+        "description": "A legendary music venue, the New Afrika Shrine was built in honor of Afrobeat pioneer Fela Kuti. It is now run by his children, including Femi Kuti and Seun Kuti, who continue his legacy with live performances. The venue is famous for its energetic atmosphere, rich culture, and politically charged music.",
+        "image": "./images/afrika-shrine.webp"
+    },
+    {
+        "name": "Jumia Food Lagos",
+        "address": "Online-based, Lagos, Nigeria",
+        "description": "Jumia Food is one of Nigeria's leading online food delivery platforms, connecting users with top restaurants in Lagos. It offers a wide variety of meals, from local Nigerian dishes to international cuisine, delivered to customers' doorsteps. The platform is known for its reliability, diverse restaurant options, and efficient delivery service.",
+        "image": "./images/jumia-foods.webp"
+    }
+]
