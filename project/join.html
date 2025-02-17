@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="deborah bayode">
+    <meta name="description"
+        content="Retro Game Dev Hub, a place for gamers and others alike to find out the fun of gaming and game development, a place where individuals get to learn more about game development and games in general">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Retro Game Dev Hub">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images\logo.png">
+    <meta property="og:url" content="https://debbyjudge.github.io/wdd231/project/index.html">
+    <title>Retro Game Dev Hub</title>
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h4><a href="index.html">Retro Game Dev</a></h4>
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="join.html" class="active">Contact</a></li>
+            </ul>
+            <a href="join.html" class="join">Join Us</a>
+            <span id="hamburger">🕹️</span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 36rem)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 48rem)">
+                <source srcset="images/hero-large.webp" media="(max-width: 64rem)">
+                <img src="images/hero-large.webp" alt="Hero image" loading="lazy">
+            </picture>
+        </div>
+        <h1>Join Us - Let's Connect and Collaborate!</h1>
+        <p>We'd love to hear from you! Whether you want to collaborate, have questions, or just want to say hi, feel
+            free to reach
+            out. Let's build something amazing together.</p>
+        <div class="join-page">
+            <form action="thank-you.html">
+                <fieldset>
+                    <legend>Get in Touch With Us</legend>
+                    <label>Name* <input type="text" name="name" title="name" autocomplete="name"
+                            placeholder="Oluwadamilare Obalana" required></label>
+                    <label>Emai* <input type="email" name="email" title="email" placeholder="dammy@gmail.com"
+                            autocomplete="email" required></label>
+                    <label>Message <input type="text" name="message" title="message"></label>
+                    <input type="submit" value="Send a Message">
+                </fieldset>
+            </form>
+
+            <div class="social-media">
+                <div>
+                    <h2>Social Media</h2>
+                    <ul>
+                        <li><a href="https://x.com/botf_x" target="_blank">🎮 Twitter (X)</a></li>
+                        <li><a href="https://www.youtube.com/@botf_x" target="_blank">🎥 Youtube</a></li>
+                        <li><a href="https://discord.com" target="_blank">🕹️ Discord</a></li>
+                        <li><a href="https://www.instagram.com/botf_x/" target="_blank">📷 Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/deborah bayode/" target="_blank">💼 LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="info">
+            <h3>Retro Game Dev Hub</h3>
+            <p>Your go-to platform for game development tutorials, resources, and updates. Start building your dream
+                game!</p>
+        </div>
+        <div class="links">
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://x.com/botf_x" target="_blank">🎮 Twitter (X)</a></li>
+                    <li><a href="https://www.youtube.com/@botf_x" target="_blank">🎥 Youtube</a></li>
+                    <li><a href="https://discord.com" target="_blank">🕹️ Discord</a></li>
+                    <li><a href="https://www.instagram.com/botf_x/" target="_blank">📷 Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/deborah bayode/" target="_blank">💼 LinkedIn</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Latest News</h3>
+                <ul>
+                    <li><a href="https://www.pcgamesn.com/new-pc-games" target="_blank">Best Games...</a></li>
+                    <li><a href="https://gamepill.com/the-art-of-world-building-creating-immersive-game-environments/" target="_blank">How
+                            to Design a Game World...</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 RetroGameDevHub. All rights reserved.</p>
+            <p>Sources: pcgamesn | gamepill</p>
+            <p>Privacy Policy | Terms of Service | Cookie Policy</p>
+        </div>
+    </footer>
+</body>
+
+</html>

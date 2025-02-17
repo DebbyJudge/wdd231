@@ -1,0 +1,105 @@
+[
+    {
+        "name": "Unity",
+        "description": "A versatile game engine known for its ease of use and cross-platform support, widely used for mobile, indie, and AAA games.",
+        "example_games": [
+            "Hollow Knight",
+            "Monument Valley",
+            "Genshin Impact"
+        ],
+        "detai": "game_engine",
+        "website": "https://unity.com"
+    },
+    {
+        "name": "Unreal Engine",
+        "description": "A high-end game engine offering stunning graphics, real-time rendering, and Blueprints for visual scripting.",
+        "example_games": [
+            "Fortnite",
+            "Final Fantasy VII Remake",
+            "Gears of War 5"
+        ],
+        "detai": "game_engine",
+        "website": "https://www.unrealengine.com"
+    },
+    {
+        "name": "Godot",
+        "description": "An open-source game engine with a lightweight design and strong support for 2D and 3D development.",
+        "example_games": [
+            "Cassette Beasts",
+            "Cruelty Squad",
+            "Brotato"
+        ],
+        "detai": "game_engine",
+        "website": "https://godotengine.org"
+    },
+    {
+        "name": "C++",
+        "description": "A powerful language used in high-performance game engines like Unreal Engine, offering direct hardware access and efficiency.",
+        "detai": "programming_language",
+        "used_in": [
+            "Unreal Engine",
+            "CryEngine",
+            "Custom Game Engines"
+        ]
+    },
+    {
+        "name": "C#",
+        "description": "The primary language for Unity development, balancing performance and ease of use.",
+        "detai": "programming_language",
+        "used_in": [
+            "Unity",
+            "MonoGame"
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "description": "Used for browser-based and web games, often with libraries like Phaser and Three.js.",
+        "detai": "programming_language",
+        "used_in": [
+            "Web games",
+            "Browser-based engines"
+        ]
+    },
+    {
+        "name": "Python",
+        "description": "Used for AI scripting, automation, and game prototypes due to its simplicity and flexibility.",
+        "detai": "programming_language",
+        "used_in": [
+            "Blender scripting",
+            "Game AI",
+            "Panda3D"
+        ]
+    },
+    {
+        "name": "Blender",
+        "description": "A free and open-source 3D modeling and animation tool with powerful sculpting, rendering, and texturing capabilities.",
+        "detai": "animation_tool",
+        "used_for": [
+            "Character modeling",
+            "Environment design",
+            "Animation"
+        ],
+        "website": "https://www.blender.org"
+    },
+    {
+        "name": "Maya",
+        "description": "An industry-standard 3D modeling and animation software used for cinematic animations and character rigging.",
+        "detai": "animation_tool",
+        "used_for": [
+            "Cinematic animations",
+            "Character rigging"
+        ],
+        "website": "https://www.autodesk.com/products/maya"
+    },
+    {
+        "name": "Photoshop",
+        "description": "A leading software for creating textures, UI elements, and concept art in game development.",
+        "detai": "animation_tool",
+        "used_for": [
+            "Texture painting",
+            "Sprite design",
+            "UI elements"
+        ],
+        "website": "https://www.adobe.com/products/photoshop"
+    }
+]
